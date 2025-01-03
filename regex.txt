@@ -1,0 +1,14 @@
+^
+(?:\.trashed-\d+-)?
+(?:\.tmp)?
+(?:Screenshot_)?
+(?:\..+?)?
+(?:(?:IMG|VID)_)?
+(?P<year>\d{4})-?(?P<month>\d{2})-?(?P<day>\d{2})
+(?:_|-)
+(?P<hour>\d{2})-?(?P<minutes>\d{2})-?(?P<seconds>\d{2})
+(?:(?:_|-|~)\d+?)?
+(?:\_[^\.\n]+?)?
+(?:\.[^\.\n]+?)*
+(?P<extention>\.jpg|\.jpeg|\.png|\.gif|\.HEIC|\.HEIV|\.mp4)
+$
